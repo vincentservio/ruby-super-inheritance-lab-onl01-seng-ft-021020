@@ -8,7 +8,7 @@ class ChattyStudent < Student
   def raise_hand
     super 
    time = "Pick me!"
-   5.times{puts time}
+   20.times{puts time}
 
   end
 end 
