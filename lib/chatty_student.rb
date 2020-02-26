@@ -7,7 +7,7 @@ class ChattyStudent < Student
   
   def raise_hand
     super 
-   4.times"Pick me!"
+   4.times{"Pick me!"}
 
   end
 end 
