@@ -8,6 +8,6 @@ class ChattyStudent < Student
   def raise_hand
     super 
    raisehand = "Pick me!"
-   puts raisehand * 10
+   p raisehand * 10
   end
 end 
